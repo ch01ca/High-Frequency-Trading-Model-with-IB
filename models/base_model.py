@@ -1,5 +1,5 @@
 from ib_insync import IB, Forex, Stock, MarketOrder
-
+from ib_insync import IB, Forex, Stock, MarketOrder
 from util import order_util
 
 """
@@ -10,7 +10,7 @@ For other models to extend and use.
 
 
 class BaseModel(object):
-	def __init__(self, host='127.0.0.1', port=7497, client_id=1):
+	def __init__(self, host='127.0.0.1', port=4002, client_id=1):
 		self.host = host
 		self.port = port
 		self.client_id = client_id
